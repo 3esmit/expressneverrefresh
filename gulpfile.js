@@ -27,7 +27,6 @@ gulp.task("browser-sync", function(){
 
 gulp.task("nodemon", function(){
     nodemon({
-        exec: 'node --debug',
         script: 'app.js',
         ignore: ["public/*"],
         debug: true
